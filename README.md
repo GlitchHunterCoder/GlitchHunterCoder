@@ -14,6 +14,11 @@
   </a> 
 </p>
 
+  <details>
+    <summary>Open File</summary>
+    12
+  </details>
+
 ## Projects
 ### Short Project List
 -  [x] Async Engine
@@ -28,6 +33,9 @@
 - `Release`: when the code is done, and no more changes will need to be added to code, BUT changes to README still are occuring
 - `End`: when the code is done AND no more changes will need to be added to ANY part of repo (INCLUDING README)
 ### Project List
+<details>
+  <summary>Open File</summary>
+
 #### Working
 > **Idea is Running smoothly without issues**
 - Began: Projects which are in `Begin` phase
@@ -61,6 +69,7 @@
 #### Given
 - **Idea has been given to someone else to work on due to some criteria**
 
+</details>
 <!--
 **GlitchHunterCoder/GlitchHunterCoder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
