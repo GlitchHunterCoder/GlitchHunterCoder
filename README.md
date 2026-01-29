@@ -8,7 +8,7 @@
 <p align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1000&pause=1000&width=180&color=FFFFFF&lines=Bloxd+Io+Coder" alt="Typing SVG" /></a></p>
 
 <p align="center">
-  <img width="105" height="105" alt="image" src="https://github.com/user-attachments/assets/d833ae7a-2b3c-4bfc-961b-3f1a0287f0a3" />
+  <img width="104.25" height="104.25" alt="image" src="https://github.com/user-attachments/assets/d833ae7a-2b3c-4bfc-961b-3f1a0287f0a3" />
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=discord,github,js,windows&perline=2" />
   </a> 
