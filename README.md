@@ -54,7 +54,7 @@
 - Utilised: 
 - Released: 
 - Ended: 
-# Awaiting
+#### Awaiting
 > **Idea has stopped progress at a stage for a given reason**
 - Paused: Projects which are in any phase but currently paused due to other projects
 - Postpone: Projects which are in `Refine` phase, but needed method doesnt exist yet
