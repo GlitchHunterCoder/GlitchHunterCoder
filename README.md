@@ -1,11 +1,23 @@
 # GlitchHunterCoder
+
+<div align="center">
+
+[![CI](https://github.com/fastify/fastify/workflows/ci/badge.svg)](https://github.com/fastify/fastify/actions/workflows/ci.yml)
+[![Package Manager CI](https://github.com/fastify/fastify/workflows/package-manager-ci/badge.svg)](https://github.com/fastify/fastify/actions/workflows/package-manager-ci.yml)
+[![Web SIte](https://github.com/fastify/fastify/workflows/website/badge.svg)](https://github.com/fastify/fastify/actions/workflows/website.yml)
+[![Known Vulnerabilities](https://snyk.io/test/github/fastify/fastify/badge.svg)](https://snyk.io/test/github/fastify/fastify)
+[![Coverage Status](https://coveralls.io/repos/github/fastify/fastify/badge.svg?branch=main)](https://coveralls.io/github/fastify/fastify?branch=main)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://standardjs.com/)
+
+</div>
+
 ## Socials
 - [Discord Profile](https://discord.com/users/1054017238606286928)
 - [Discord Server for Advanced Coders](https://discord.gg/nTTktDKVZx)
 - [Fandom Profile](https://bloxd-io.fandom.com/wiki/User:GlitchHunterCode)
 ## Skills
 
-<p align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1000&pause=1000&width=180&color=FFFFFF&lines=Bloxd+Io+Coder" alt="Typing SVG" /></a></p>
+<p align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=1000&pause=1000&width=180&color=808080&lines=Bloxd+Io+Coder" alt="Typing SVG" /></a></p>
 
 <p align="center">
   <img width="104.25" height="104.25" alt="image" src="https://github.com/user-attachments/assets/d833ae7a-2b3c-4bfc-961b-3f1a0287f0a3" />
@@ -14,10 +26,33 @@
   </a> 
 </p>
 
-  <details>
-    <summary>Open File</summary>
-    12
-  </details>
+```mermaid
+---
+title: Interruption Model
+---
+stateDiagram-v2
+    direction LR
+    [*] --> Program
+    Program --> Check
+    Check --> Program
+    state Program {
+        [*] --> Step
+        Step --> [*]
+    }
+
+    state Check {
+        [*] --> IU
+        IU: IU % 5000 == 0
+        IU --> Cont: False
+        IU --> TU: True
+        TU: TU > TU_limit
+        TU --> StopCode: True
+        StopCode: Stop Running Code
+        TU --> Cont: False
+        Cont: Continue Code
+    }
+
+```
 
 ## Projects
 ### Short Project List
