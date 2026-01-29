@@ -26,6 +26,9 @@
   </a> 
 </p>
 
+<details>
+  <summary>Bloxd Runtime Graph</summary>
+
 ```mermaid
 ---
 title: Interruption Model
@@ -53,6 +56,354 @@ stateDiagram-v2
     }
 
 ```
+
+</details>
+
+<details>
+  <summary>Voxel Simulator</summary>
+
+```stl
+solid merged
+facet
+outer loop
+vertex 0 0 0
+vertex 50 0 0
+vertex 0 50 0
+endloop
+endfacet
+facet
+outer loop
+vertex 50 0 0
+vertex 50 50 0
+vertex 0 50 0
+endloop
+endfacet
+facet
+outer loop
+vertex 0 0 10
+vertex 0 50 10
+vertex 50 0 10
+endloop
+endfacet
+facet
+outer loop
+vertex 50 0 10
+vertex 0 50 10
+vertex 50 50 10
+endloop
+endfacet
+facet
+outer loop
+vertex 0 0 0
+vertex 0 0 10
+vertex 50 0 0
+endloop
+endfacet
+facet
+outer loop
+vertex 50 0 0
+vertex 0 0 10
+vertex 50 0 10
+endloop
+endfacet
+facet
+outer loop
+vertex 0 50 0
+vertex 50 50 0
+vertex 0 50 10
+endloop
+endfacet
+facet
+outer loop
+vertex 50 50 0
+vertex 50 50 10
+vertex 0 50 10
+endloop
+endfacet
+facet
+outer loop
+vertex 0 0 0
+vertex 0 50 0
+vertex 0 0 10
+endloop
+endfacet
+facet
+outer loop
+vertex 0 50 0
+vertex 0 50 10
+vertex 0 0 10
+endloop
+endfacet
+facet
+outer loop
+vertex 50 0 0
+vertex 50 0 10
+vertex 50 50 0
+endloop
+endfacet
+facet
+outer loop
+vertex 50 50 0
+vertex 50 0 10
+vertex 50 50 10
+endloop
+endfacet
+facet
+outer loop
+vertex 20 20 10
+vertex 30 20 10
+vertex 20 30 10
+endloop
+endfacet
+facet
+outer loop
+vertex 30 20 10
+vertex 30 30 10
+vertex 20 30 10
+endloop
+endfacet
+facet
+outer loop
+vertex 20 20 30
+vertex 20 30 30
+vertex 30 20 30
+endloop
+endfacet
+facet
+outer loop
+vertex 30 20 30
+vertex 20 30 30
+vertex 30 30 30
+endloop
+endfacet
+facet
+outer loop
+vertex 20 20 10
+vertex 20 20 30
+vertex 30 20 10
+endloop
+endfacet
+facet
+outer loop
+vertex 30 20 10
+vertex 20 20 30
+vertex 30 20 30
+endloop
+endfacet
+facet
+outer loop
+vertex 20 30 10
+vertex 30 30 10
+vertex 20 30 30
+endloop
+endfacet
+facet
+outer loop
+vertex 30 30 10
+vertex 30 30 30
+vertex 20 30 30
+endloop
+endfacet
+facet
+outer loop
+vertex 20 20 10
+vertex 20 30 10
+vertex 20 20 30
+endloop
+endfacet
+facet
+outer loop
+vertex 20 30 10
+vertex 20 30 30
+vertex 20 20 30
+endloop
+endfacet
+facet
+outer loop
+vertex 30 20 10
+vertex 30 20 30
+vertex 30 30 10
+endloop
+endfacet
+facet
+outer loop
+vertex 30 30 10
+vertex 30 20 30
+vertex 30 30 30
+endloop
+endfacet
+facet
+outer loop
+vertex 0 0 30
+vertex 50 0 30
+vertex 0 50 30
+endloop
+endfacet
+facet
+outer loop
+vertex 50 0 30
+vertex 50 50 30
+vertex 0 50 30
+endloop
+endfacet
+facet
+outer loop
+vertex 0 0 40
+vertex 0 50 40
+vertex 50 0 40
+endloop
+endfacet
+facet
+outer loop
+vertex 50 0 40
+vertex 0 50 40
+vertex 50 50 40
+endloop
+endfacet
+facet
+outer loop
+vertex 0 0 30
+vertex 0 0 40
+vertex 50 0 30
+endloop
+endfacet
+facet
+outer loop
+vertex 50 0 30
+vertex 0 0 40
+vertex 50 0 40
+endloop
+endfacet
+facet
+outer loop
+vertex 0 50 30
+vertex 50 50 30
+vertex 0 50 40
+endloop
+endfacet
+facet
+outer loop
+vertex 50 50 30
+vertex 50 50 40
+vertex 0 50 40
+endloop
+endfacet
+facet
+outer loop
+vertex 0 0 30
+vertex 0 50 30
+vertex 0 0 40
+endloop
+endfacet
+facet
+outer loop
+vertex 0 50 30
+vertex 0 50 40
+vertex 0 0 40
+endloop
+endfacet
+facet
+outer loop
+vertex 50 0 30
+vertex 50 0 40
+vertex 50 50 30
+endloop
+endfacet
+facet
+outer loop
+vertex 50 50 30
+vertex 50 0 40
+vertex 50 50 40
+endloop
+endfacet
+facet
+outer loop
+vertex 10 10 40
+vertex 40 10 40
+vertex 10 40 40
+endloop
+endfacet
+facet
+outer loop
+vertex 40 10 40
+vertex 40 40 40
+vertex 10 40 40
+endloop
+endfacet
+facet
+outer loop
+vertex 10 10 50
+vertex 10 40 50
+vertex 40 10 50
+endloop
+endfacet
+facet
+outer loop
+vertex 40 10 50
+vertex 10 40 50
+vertex 40 40 50
+endloop
+endfacet
+facet
+outer loop
+vertex 10 10 40
+vertex 10 10 50
+vertex 40 10 40
+endloop
+endfacet
+facet
+outer loop
+vertex 40 10 40
+vertex 10 10 50
+vertex 40 10 50
+endloop
+endfacet
+facet
+outer loop
+vertex 10 40 40
+vertex 40 40 40
+vertex 10 40 50
+endloop
+endfacet
+facet
+outer loop
+vertex 40 40 40
+vertex 40 40 50
+vertex 10 40 50
+endloop
+endfacet
+facet
+outer loop
+vertex 10 10 40
+vertex 10 40 40
+vertex 10 10 50
+endloop
+endfacet
+facet
+outer loop
+vertex 10 40 40
+vertex 10 40 50
+vertex 10 10 50
+endloop
+endfacet
+facet
+outer loop
+vertex 40 10 40
+vertex 40 10 50
+vertex 40 40 40
+endloop
+endfacet
+facet
+outer loop
+vertex 40 40 40
+vertex 40 10 50
+vertex 40 40 50
+endloop
+endfacet
+endsolid
+```
+
+</details>
 
 ## Projects
 ### Short Project List
