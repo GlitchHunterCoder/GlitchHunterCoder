@@ -34,16 +34,43 @@
 title: Interruption Model
 ---
 stateDiagram-v2
+  [*] --> Enviroment
+  Enviroment --> [*]
+  state Enviroment {
     direction LR
-    [*] --> Program
+    myId --> CodeBlock
+    thisPos --> CodeBlock
+    [*] --> CodeBlock: on Code Block Clicked
     Program --> Check
     Check --> Program
-    state Program {
-        [*] --> Step
-        Step --> [*]
+    
+    state CodeBlock {
+      A: Step
+      [*] --> A
+      A --> [*]
     }
-
-    state Check {
+    
+    state WorldCode {
+      state Init {
+        B: Step
+        [*] --> B
+        B --> [*]
+      }
+      state Callback {
+        C: Step
+        [*] --> C
+        C --> [*]
+      }
+    }
+    state Interruption {
+      [*] --> Step
+      Step --> Check
+      Check --> Step
+      state Step {
+        [*] --> InputStep
+        InputStep --> [*]
+      }
+      state Check {
         [*] --> IU
         IU: IU % 5000 == 0
         IU --> Cont: False
@@ -53,8 +80,9 @@ stateDiagram-v2
         StopCode: Stop Running Code
         TU --> Cont: False
         Cont: Continue Code
+      }
     }
-
+  }
 ```
 
 </details>
