@@ -34,53 +34,59 @@
 title: Interruption Model
 ---
 stateDiagram-v2
-  [*] --> Enviroment
-  Enviroment --> [*]
-  state Enviroment {
-    direction LR
-    myId --> CodeBlock
-    thisPos --> CodeBlock
-    [*] --> CodeBlock: on Code Block Clicked
-    Program --> Check
-    Check --> Program
+  [*] --> Start
+  Env --> End
+  End --> [*]
+  state Env {
+    Start --> Activate
+    RateLimit --> WorldCode
+    state Activate {
+      [*] --> if_WC_A
+      if_WC_A --> WC_A: if WorldCode Changed
+      WC_A --> RateLimit
+    }
     
     state CodeBlock {
-      A: Step
-      [*] --> A
-      A --> [*]
+      myId --> Step_CB
+      thisPos --> Step_CB
+      [*] --> Step_CB
+      Step_CB --> [*]
     }
     
     state WorldCode {
+      direction LR
+      Init --> Callback
+      Callback --> Callback
+      
       state Init {
-        B: Step
-        [*] --> B
-        B --> [*]
+        [*] --> Step_I
+        Step_I --> [*]
       }
+      
       state Callback {
-        C: Step
-        [*] --> C
-        C --> [*]
+        [*] --> Step_C
+        Step_C --> [*]
       }
     }
     state Interruption {
-      [*] --> Step
-      Step --> Check
-      Check --> Step
-      state Step {
-        [*] --> InputStep
-        InputStep --> [*]
-      }
-      state Check {
-        [*] --> IU
-        IU: IU % 5000 == 0
-        IU --> Cont: False
-        IU --> TU: True
-        TU: TU > TU_limit
-        TU --> StopCode: True
-        StopCode: Stop Running Code
-        TU --> Cont: False
-        Cont: Continue Code
-      }
+      [*] --> IU
+      IU: IU % 5000 == 0
+      IU --> [*]: False
+      IU --> TU: True
+      TU: TU > TU_limit
+      TU --> StopCode: True
+      StopCode: Stop Running Code
+      TU --> [*]: False
+      [*]
+    }
+    
+    state RateLimit {
+      classDef Halt fill:#f00,color:white,font-weight:bold,stroke-width:2px,stroke:black
+      [*] --> RT
+      RT: TU > TU_limit
+      RT --> DontRun: True
+      class DontRun Halt
+      RT --> [*]
     }
   }
 ```
