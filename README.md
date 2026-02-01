@@ -47,28 +47,59 @@ stateDiagram-v2
   class WorldCode WorldCodeStyle
   class CodeBlock CodeBlockStyle
   class Activate, Update, Start, End BloxdLoadStyle
-  class RateLimit, Interruption ErrorStyle
+  class RateLimit, Interruption, Int_CB, Int_C, Int_I, Rate_WC, Rate_C ErrorStyle
   class DontRun, StopCode, NoCall FatalErrorStyle
   class Env EnvStyle
 
-  Env: Environment
-  Activate: Activation
   [*] --> Activate: onLobbyStart
   Update --> [*]: onLobbyEnd
+  
   Env --> Update
   Update --> Env
-
+  
+  Env: Environment
   state Env {
-    RateLimit --> WorldCode
-
+    
+    Rate_WC --> WorldCode
+    Rate_WC: RateLimit_Check()
+    
+    Activate: Activation
     state Activate {
       if_WC_A: if WorldCode Changed
       if_CB_A: if CodeBlock Pressed
       [*] --> if_WC_A
-      if_WC_A --> RateLimit: True
+      if_WC_A --> Rate_WC: True
       if_WC_A --> if_CB_A: False
       if_CB_A --> CodeBlock: True
       if_CB_A --> NoCall: False
+    }
+    
+    state WorldCode {
+      Rate_C: RateLimit_Check()
+      [*] --> Init: First Run of code
+      Init --> CallbackList: Gather Function Definitions of Callbacks
+      CallbackList --> Callback: Begin Callback Loop
+      Callback --> CallbackCalls: Done All Callbacks, Check Call List
+      CallbackCalls --> Rate_C
+      Rate_C --> Callback: Cycles every 50ms, regardless of callbacks
+      
+      state Init {
+        Step_I: Step Execution
+        Int_I: Interruption_Check()
+        [*] --> Step_I
+        Step_I --> Int_I
+        Int_I --> [*]
+        Int_I --> Step_I
+      }
+      
+      state Callback {
+        Step_C: Step Execution
+        Int_C: Interruption_Check()
+        [*] --> Step_C
+        Step_C --> Int_C
+        Int_C --> [*]
+        Int_C --> Step_C
+      }
     }
 
     state CodeBlock {
@@ -76,28 +107,11 @@ stateDiagram-v2
       thisPos --> Step_CB
       Step_CB: Step Execution
       [*] --> Step_CB
-      Step_CB --> [*]
+      Step_CB --> Int_CB
+      Int_CB: Interruption_Check()
+      Int_CB --> [*]
     }
-    
-    state WorldCode {
-      [*] --> Init: First Run of code
-      Init --> Callbacks?: Gather Function Definitions of Callbacks
-      Callbacks? --> Callback: Begin Callback Loop
-      Callback --> Called?: Check Call List
-      Called? --> Callback: Cycles every 50ms, regardless of callbacks
-      
-      state Init {
-        Step_I: Step Execution
-        [*] --> Step_I
-        Step_I --> [*]
-      }
-      
-      state Callback {
-        Step_C: Step Execution
-        [*] --> Step_C
-        Step_C --> [*]
-      }
-    }
+
     state Interruption {
       [*] --> IU
       IU: IU % 5000 == 0
@@ -109,6 +123,7 @@ stateDiagram-v2
       TU --> [*]: False
       [*]
     }
+    Interruption: Interruption_Check(){ ... }
     
     state RateLimit {
       DontRun: "Wait X Seconds Before Running Code"
@@ -117,10 +132,7 @@ stateDiagram-v2
       RT --> DontRun: True
       RT --> [*]
     }
-
-    CodeBlock --> Interruption
-    WorldCode --> Interruption
-    Interruption --> [*]
+    RateLimit: RateLimit_Check(){ ... }
   }
   state Update {
     [*] --> UpdateData
