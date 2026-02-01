@@ -31,15 +31,13 @@ My Socials Are:
 <details>
   <summary>Bloxd Runtime Graph</summary>
 
-```mermaid
-  info
-```
+[![](https://mermaid.ink/img/pako:eNqdV21v4jgQ_itWVifdnQJKX6CspT1pSbenSnS1aot6uuNUmcSARbCRY1o4xH-_sZ3YiUurdj-AY88zz3je7GQfZSKnEY46nc6EZ4LP2BxPOEIF2YmNwogWywlXTBUUo2uuqJSbtWKCoxvQKybc6JWKKHrJyFySVefpVOtnBSnLSzpDD0IWeQrgO7UrKJqxosCfkiSJM1EIidcbuS5oPBNcdZ4pmy8Unooij0slxZJ2nlmuFri_3lYLFb5lQZMPC5Etj1t4XjD1AQOfwIldix-4t_lIkLzNP_hJ_iQ5j5GiW9UpFyQXzxidrrfmNy02bc--SSlk0-rgp706B83jViXNW0aviCLFC8szZ3lakGz5IX_fa_kbf2qYtHaszbm28G6TBv1aiIF0wp1ZX54xekiDYvUoV2IxSodBwXnU10yxJ-iEGI3XuRnvFJEqBsfyoIq80i0AR2zFANbsLzN7TIfVaIfr2MD11IxuPmyUiqe-hIDdbrjehlhbH7-LlBRFmGOvAilwabBh-uf3f1Gn84dexUjwkZhOd8YtLbR-GjngnBz81VL904RabJGBDggbOKz_mBR8RblhN8eKYdjrKXIBxuiGMG7XLKiW1EiEciZpZk6q0W29xmaPD-njVwwPPtUoXRA-t6VYgdJhBXKZRj8kLUsPqqNSMQYGjOghxehe2o4OZc7GFSlKGlg2iHTY1tZzs1uznWMaNrUBpd6E8dQoe7I6ZR7XXjnYoXazDm87DW2VZjp8cF0-bKFiX--P6YJmy19_awGu3wDUm6mBV0yWCkGBIzFDWcM9CzDYa85UvayfbWwhTlM4B0ashBvuT6IWVKKrDbflAicRAyQ8lpq4BpcueA3tFh1GQzpn3M3RSIh1qNXS0GOJdZ9CBUNbOltwzGjfzQLShkIao-mjkbajHGwr3WUFLRF9onKHeskK6CWdE5nDqvExC32sR5tNEziXyOOtheCQoWudFj2ib1uabTTEy80B1n6JCDPsc2zJQvIqpaopMdOwnJvLbarDcRddet7nZvq2m-mH3ExDcudmGtAedzM9QnVwbdxsS3-cBW05fKPtVrvrvGFhWK-rBSt_iPKYqJq-FqRWI3ut-ip7ndAHZuibWr2iYyVvZ6Kh3Tz6mjFrvfTuQxeux45qDKbG6BdosCRBX76gxEv8Bdk6nCvB_bh91Jv5GGnBY6Ez4gWVn_Y2b2vZ3U4ic6s3vIY7K0KkdFoB2ctdhXdAMwDHo7lH3W63hjdj52rKB656J8Gw0wcCgr_QHYXPjryEw3MmJNXnOWd8bu-r6EXJ3LtquX8lSrf3BukMNYNUyUIX3T6PtEHDuYN_KaleYvbta9KuXsLLlV3386bZQxRHc8nyCCvYWhytqFwRPY0M3SSC-2gFvusY5UQudRS0zprwv4VY1WpSbOaLCM907uJoY03ZbzAHoTynMhUbriLcMwwR3kdbmHQHn5OLs8F5v3d61h-cgHAX4c7FebeXnJ2c9C56J6c9ABzi6D9j86R71kv6vf7nQR8UehenZ3FEc6aEvLEfkOY78vA_BhxtZg?type=png)](https://mermaid.live/edit#pako:eNqdV21v4jgQ_itWVifdnQJKX6CspT1pSbenSnS1aot6uuNUmcSARbCRY1o4xH-_sZ3YiUurdj-AY88zz3je7GQfZSKnEY46nc6EZ4LP2BxPOEIF2YmNwogWywlXTBUUo2uuqJSbtWKCoxvQKybc6JWKKHrJyFySVefpVOtnBSnLSzpDD0IWeQrgO7UrKJqxosCfkiSJM1EIidcbuS5oPBNcdZ4pmy8Unooij0slxZJ2nlmuFri_3lYLFb5lQZMPC5Etj1t4XjD1AQOfwIldix-4t_lIkLzNP_hJ_iQ5j5GiW9UpFyQXzxidrrfmNy02bc--SSlk0-rgp706B83jViXNW0aviCLFC8szZ3lakGz5IX_fa_kbf2qYtHaszbm28G6TBv1aiIF0wp1ZX54xekiDYvUoV2IxSodBwXnU10yxJ-iEGI3XuRnvFJEqBsfyoIq80i0AR2zFANbsLzN7TIfVaIfr2MD11IxuPmyUiqe-hIDdbrjehlhbH7-LlBRFmGOvAilwabBh-uf3f1Gn84dexUjwkZhOd8YtLbR-GjngnBz81VL904RabJGBDggbOKz_mBR8RblhN8eKYdjrKXIBxuiGMG7XLKiW1EiEciZpZk6q0W29xmaPD-njVwwPPtUoXRA-t6VYgdJhBXKZRj8kLUsPqqNSMQYGjOghxehe2o4OZc7GFSlKGlg2iHTY1tZzs1uznWMaNrUBpd6E8dQoe7I6ZR7XXjnYoXazDm87DW2VZjp8cF0-bKFiX--P6YJmy19_awGu3wDUm6mBV0yWCkGBIzFDWcM9CzDYa85UvayfbWwhTlM4B0ashBvuT6IWVKKrDbflAicRAyQ8lpq4BpcueA3tFh1GQzpn3M3RSIh1qNXS0GOJdZ9CBUNbOltwzGjfzQLShkIao-mjkbajHGwr3WUFLRF9onKHeskK6CWdE5nDqvExC32sR5tNEziXyOOtheCQoWudFj2ib1uabTTEy80B1n6JCDPsc2zJQvIqpaopMdOwnJvLbarDcRddet7nZvq2m-mH3ExDcudmGtAedzM9QnVwbdxsS3-cBW05fKPtVrvrvGFhWK-rBSt_iPKYqJq-FqRWI3ut-ip7ndAHZuibWr2iYyVvZ6Kh3Tz6mjFrvfTuQxeux45qDKbG6BdosCRBX76gxEv8Bdk6nCvB_bh91Jv5GGnBY6Ez4gWVn_Y2b2vZ3U4ic6s3vIY7K0KkdFoB2ctdhXdAMwDHo7lH3W63hjdj52rKB656J8Gw0wcCgr_QHYXPjryEw3MmJNXnOWd8bu-r6EXJ3LtquX8lSrf3BukMNYNUyUIX3T6PtEHDuYN_KaleYvbta9KuXsLLlV3386bZQxRHc8nyCCvYWhytqFwRPY0M3SSC-2gFvusY5UQudRS0zprwv4VY1WpSbOaLCM907uJoY03ZbzAHoTynMhUbriLcMwwR3kdbmHQHn5OLs8F5v3d61h-cgHAX4c7FebeXnJ2c9C56J6c9ABzi6D9j86R71kv6vf7nQR8UehenZ3FEc6aEvLEfkOY78vA_BhxtZg)
 
 ```mermaid
 ---
 title: Interruption Model
 ---
-stateDiagram-v2
+stateDiagram
   classDef Halt fill:#f00,color:white,font-weight:bold,stroke-width:2px,stroke:black
   classDef WorldCodeStyle fill:#000,color:purple,font-weight:bold,stroke-width:6px,stroke:purple
   classDef CodeBlockStyle fill:#000,color:white,font-weight:bold,stroke-width:6px,stroke:#gray
@@ -51,7 +49,7 @@ stateDiagram-v2
   class WorldCode, WC WorldCodeStyle
   class CodeBlock, CB CodeBlockStyle
   class Activate, Update, Start, End BloxdLoadStyle
-  class RateLimit, Interruption, Int_CB, Int_C, Int_I, Rate_C, Rate_I, Rate_CB ErrorStyle
+  class RateLimit, Interruption, Int_CB, Int_C, Int_I, Rate_WC, Rate_C ErrorStyle
   class DontRun, StopCode, NoCall FatalErrorStyle
   class Env EnvStyle
 
@@ -69,12 +67,14 @@ stateDiagram-v2
       if_WC_A: if WorldCode Changed
       if_CB_A: if CodeBlock Pressed
       [*] --> if_WC_A
-      if_WC_A --> WC: True
+      if_WC_A --> Rate_WC: True
       if_WC_A --> if_CB_A: False
       if_CB_A --> CB: True
       CB: Code Block
       if_CB_A --> NoCall: False
+      Rate_WC --> WC
       WC: World Code
+      Rate_WC: RateLimit_Check()
       CB --> [*]
       WC --> [*]
     }
@@ -83,9 +83,7 @@ stateDiagram-v2
     
     state WorldCode {
       Rate_C: RateLimit_Check()
-      Rate_I: RateLimit_Check()
-      [*] --> Rate_I: First Run of code
-      Rate_I --> Init
+      [*] --> Init: First Run of code
       Init --> CallbackList: Gather Function Definitions of Callbacks
       CallbackList --> Callback: Begin Callback Loop
       Callback --> CallbackCalls: Done All Callbacks, Check Call List
@@ -114,12 +112,10 @@ stateDiagram-v2
     }
 
     state CodeBlock {
-      Rate_CB: RateLimit_Check()
       myId --> Step_CB
       thisPos --> Step_CB
       Step_CB: Step Execution
-      [*] --> Rate_CB
-      Rate_CB --> Step_CB
+      [*] --> Step_CB
       Step_CB --> Int_CB
       Int_CB: Interruption_Check()
       Int_CB --> [*]
