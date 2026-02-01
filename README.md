@@ -1,4 +1,5 @@
-# GlitchHunterCoder
+# GlitchHunterCoder 
+Hello i am `GlitchHunterCoder` and i code using JS to code for [![bloxd.io](https://img.shields.io/badge/bloxd.io-2E80EE?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAQKADAAQAAAABAAAAQAAAAABGUUKwAAABJUlEQVR4Ae2bIQ7CQBREt6SHwECCRBEsjgRFAhoFAoFBI5oQHCfAICrqCJYDICsRFRjuAgl+ZwWG5E3t7G468990VbPJoPMO4KcF9v617gBMADwBVwAOQDABJgCegCsAB8AfQVfAFYAn4ArAAfAt4Aq4AvAEXAE4ACFPBVDMxqklf60fb3f5fq6AjAcgmgDAkKVFEyDjAYh4AvLUPT86lJKDzeIh9VX/JPWUWD23csn5MpR6EdZSxxPgACQfANEEAIYsLZoAGQ9AzLu99k8262Yp9++nc6mnxPqqzw+hkUek/LkCMj6AaAIAQ5YWTYCMByDiCche5c7/CwBIj1rEV8ABRNmACCYAMuioTRMQjQYimADIoKM2TUA0GohgAiCDjtrEE/ABsvEXml+cvPwAAAAASUVORK5CYII=&style=for-the-badge)](https://bloxd.io)
 
 <div align="center">
 <!--
@@ -12,6 +13,7 @@
 </div>
 
 ## Socials
+My Socials Are: 
 - [Discord Profile](https://discord.com/users/1054017238606286928)
 - [Discord Server for Advanced Coders](https://discord.gg/nTTktDKVZx)
 - [Fandom Profile](https://bloxd-io.fandom.com/wiki/User:GlitchHunterCode)
