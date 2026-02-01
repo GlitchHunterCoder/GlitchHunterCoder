@@ -51,7 +51,7 @@ stateDiagram-v2
   class WorldCode, WC WorldCodeStyle
   class CodeBlock, CB CodeBlockStyle
   class Activate, Update, Start, End BloxdLoadStyle
-  class RateLimit, Interruption, Int_CB, Int_C, Int_I, Rate_WC, Rate_C ErrorStyle
+  class RateLimit, Interruption, Int_CB, Int_C, Int_I, Rate_C, Rate_I, Rate_CB ErrorStyle
   class DontRun, StopCode, NoCall FatalErrorStyle
   class Env EnvStyle
 
@@ -69,14 +69,12 @@ stateDiagram-v2
       if_WC_A: if WorldCode Changed
       if_CB_A: if CodeBlock Pressed
       [*] --> if_WC_A
-      if_WC_A --> Rate_WC: True
+      if_WC_A --> WC: True
       if_WC_A --> if_CB_A: False
       if_CB_A --> CB: True
       CB: Code Block
       if_CB_A --> NoCall: False
-      Rate_WC --> WC
       WC: World Code
-      Rate_WC: RateLimit_Check()
       CB --> [*]
       WC --> [*]
     }
@@ -85,7 +83,9 @@ stateDiagram-v2
     
     state WorldCode {
       Rate_C: RateLimit_Check()
-      [*] --> Init: First Run of code
+      Rate_I: RateLimit_Check()
+      [*] --> Rate_I: First Run of code
+      Rate_I --> Init
       Init --> CallbackList: Gather Function Definitions of Callbacks
       CallbackList --> Callback: Begin Callback Loop
       Callback --> CallbackCalls: Done All Callbacks, Check Call List
@@ -114,10 +114,12 @@ stateDiagram-v2
     }
 
     state CodeBlock {
+      Rate_CB: RateLimit_Check()
       myId --> Step_CB
       thisPos --> Step_CB
       Step_CB: Step Execution
-      [*] --> Step_CB
+      [*] --> Rate_CB
+      Rate_CB --> Step_CB
       Step_CB --> Int_CB
       Int_CB: Interruption_Check()
       Int_CB --> [*]
