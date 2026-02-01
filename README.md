@@ -32,6 +32,10 @@ My Socials Are:
   <summary>Bloxd Runtime Graph</summary>
 
 ```mermaid
+  info
+```
+
+```mermaid
 ---
 title: Interruption Model
 ---
@@ -44,14 +48,14 @@ stateDiagram-v2
   classDef FatalErrorStyle fill:#f00,color:black,font-weight:bold,stroke-width:6px,stroke:#000, text-shadow: 2px 2px red
   classDef EnvStyle fill:black,color:gold,font-weight:bold,stroke-width:6px,stroke:gold, text-shadow: 2px 2px black
 
-  class WorldCode WorldCodeStyle
-  class CodeBlock CodeBlockStyle
+  class WorldCode, WC WorldCodeStyle
+  class CodeBlock, CB CodeBlockStyle
   class Activate, Update, Start, End BloxdLoadStyle
   class RateLimit, Interruption, Int_CB, Int_C, Int_I, Rate_WC, Rate_C ErrorStyle
   class DontRun, StopCode, NoCall FatalErrorStyle
   class Env EnvStyle
 
-  [*] --> Activate: onLobbyStart
+  [*] --> Env: onLobbyStart
   Update --> [*]: onLobbyEnd
   
   Env --> Update
@@ -59,20 +63,25 @@ stateDiagram-v2
   
   Env: Environment
   state Env {
-    
-    Rate_WC --> WorldCode
-    Rate_WC: RateLimit_Check()
-    
-    Activate: Activation
+    Activate: Main
     state Activate {
+      direction LR
       if_WC_A: if WorldCode Changed
       if_CB_A: if CodeBlock Pressed
       [*] --> if_WC_A
       if_WC_A --> Rate_WC: True
       if_WC_A --> if_CB_A: False
-      if_CB_A --> CodeBlock: True
+      if_CB_A --> CB: True
+      CB: Code Block
       if_CB_A --> NoCall: False
+      Rate_WC --> WC
+      WC: World Code
+      Rate_WC: RateLimit_Check()
+      CB --> [*]
+      WC --> [*]
     }
+    [*] --> Activate
+    Activate --> [*]
     
     state WorldCode {
       Rate_C: RateLimit_Check()
@@ -84,6 +93,7 @@ stateDiagram-v2
       Rate_C --> Callback: Cycles every 50ms, regardless of callbacks
       
       state Init {
+        direction LR
         Step_I: Step Execution
         Int_I: Interruption_Check()
         [*] --> Step_I
@@ -93,6 +103,7 @@ stateDiagram-v2
       }
       
       state Callback {
+        direction LR
         Step_C: Step Execution
         Int_C: Interruption_Check()
         [*] --> Step_C
