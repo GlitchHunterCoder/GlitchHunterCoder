@@ -1,6 +1,6 @@
 # GlitchHunterCoder
 
-![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=1000&color=00FF00&lines=Loading+Project+Dashboard...;Scanning+Runtime+Systems...;Initializing+Async+Engine...)
+![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=1000&color=00FF00&lines=Loading+Project+Dashboard...;Scanning+Runtime+Diagrams...;Initializing+Voxel+Simulations...)
 
 <details>
 
