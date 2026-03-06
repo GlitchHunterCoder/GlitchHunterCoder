@@ -4,6 +4,10 @@
 
 <summary>Open『README』file</summary>
 
+![status](https://img.shields.io/badge/status-active-green)
+
+![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=1000&color=00FF00&lines=Loading+Project+Dashboard...;Scanning+Runtime+Systems...;Initializing+Async+Engine...)
+
 ![GitHub Streak](https://streak-stats.demolab.com/?user=GlitchHunterCoder&theme=tokyonight)
 
 JavaScript runtime experimenter and systems developer focused on advanced execution behaviour, async control systems, and sandbox-safe runtime environments.
