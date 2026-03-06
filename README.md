@@ -1,5 +1,9 @@
 # GlitchHunterCoder
 
+<details>
+
+<summary>Open『README』file</summary>
+
 ![GitHub Streak](https://streak-stats.demolab.com/?user=GlitchHunterCoder&theme=tokyonight)
 
 JavaScript runtime experimenter and systems developer focused on advanced execution behaviour, async control systems, and sandbox-safe runtime environments.
@@ -123,7 +127,7 @@ Findings suggest results are heavily influenced by pointer references rather tha
 
 ---
 
-# Runtime Architecture
+## Runtime Architecture
 
 Bloxd runtime execution model visualisation.
 
@@ -150,7 +154,7 @@ Begin → Discover → Pinpoint → Refine → Utilise → Release → End
 
 ---
 
-# Idea Vault
+## Idea Vault
 
 <details>
 
@@ -167,9 +171,9 @@ Begin → Discover → Pinpoint → Refine → Utilise → Release → End
 
 ---
 
-# Experimental Model
+## Experimental Model
 
-Voxel structure test model used for geometry simulation.
+I dont just experiment with bloxd-io, anything i can get my hands on, i will experiment with, proof is below
 
 <details>
 <summary>Voxel Simulator Model</summary>
@@ -542,3 +546,11 @@ Most of my projects explore:
 * runtime safety
 * introspection
 * unusual behaviour of the JavaScript engine
+
+</details>
+
+<details>
+
+<summary>Open『PROJECT_VIEW』file</summary>
+
+</details>
