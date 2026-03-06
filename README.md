@@ -1,5 +1,7 @@
 # GlitchHunterCoder
 
+![GitHub Streak](https://streak-stats.demolab.com/?user=GlitchHunterCoder&theme=tokyonight)
+
 JavaScript runtime experimenter and systems developer focused on advanced execution behaviour, async control systems, and sandbox-safe runtime environments.
 
 Most of my work explores how far the JavaScript runtime can be pushed beyond normal application code.
@@ -145,6 +147,23 @@ Begin → Discover → Pinpoint → Refine → Utilise → Release → End
 | Async Engine             | Utilise  |
 | Perfect Interrupt Safety | Refine   |
 | Bloxd Game Engine        | Discover |
+
+---
+
+# Idea Vault
+
+<details>
+
+<summary>Open Idea Vault</summary>
+
+| Idea | Concept |
+|-----|-----|
+| Deterministic Async Runtime | fully predictable event loop |
+| Interrupt Safe Execution | pause + resume execution safely |
+| Proxy Runtime Tracing | complete object mutation history |
+| JS Memory Mapping | understand allocation behaviour |
+
+</details>
 
 ---
 
