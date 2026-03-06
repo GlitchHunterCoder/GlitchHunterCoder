@@ -551,6 +551,6 @@ Most of my projects explore:
 
 <details>
 
-<summary>Open『PROJECT_VIEW』file</summary>
+<summary>Open『PROJECT_DASHBOARD』file</summary>
 
 </details>
