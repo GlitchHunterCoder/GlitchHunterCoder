@@ -27,11 +27,11 @@ Primary focus areas:
 # Core Skills
 
 <p align="center">
-  <img width="104.25" height="104.25" src="https://github.com/user-attachments/assets/d833ae7a-2b3c-4bfc-961b-3f1a0287f0a3"/>
+  <img src="https://skillicons.dev/icons?i=discord,github,windows,vscode,visualstudio,regex,js,a,ts&perline=3"/>
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=discord,github,js,windows&perline=2"/>
+  <img width="48" height="48" src="https://github.com/user-attachments/assets/d833ae7a-2b3c-4bfc-961b-3f1a0287f0a3"/>
 </p>
 
 ### Languages
