@@ -27,7 +27,7 @@ Primary focus areas:
 # Core Skills
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=discord,github,windows,vscode,visualstudio,regex,js,a,ts&perline=3"/>
+  <img src="https://skillicons.dev/icons?i=discord,github,discordjs,vscode,regex,visualstudio,js,windows,ts&perline=3"/>
 </p>
 
 <p align="center">
