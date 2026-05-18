@@ -557,4 +557,47 @@ Most of my projects explore:
 
 <summary>Open『PROJECT_DASHBOARD』file</summary>
 
+```mermaid
+---
+config:
+    treeView:
+        rowIndent: 80
+        lineThickness: 3
+    themeVariables:
+        treeView:
+            labelFontSize: '20px'
+            labelColor: '#FF0000'
+            lineColor: '#00FF00'
+---
+treeView-beta
+    "Bloxd"
+        "glitch-lab"
+    "Discord"
+        "BCOP"
+        "Bloxd"
+    "GitHub"
+        "Bloxd ..."
+            "AetherScript"
+            "BetterError"
+            "InfiniteMemory"
+            "GameEngine"
+            "BCOP"
+            "ProtoTree"
+            "NativeKit"
+            "Async"
+            "ProxyLogger"
+            "TSDocs"
+            "SearchEngine"
+            "DevRef"
+            "DataStructure"
+            "Transpiler"
+            "AutoDoc"
+            "BatchTester"
+            "Codes"
+        "Package ..."
+            "NextNdarray"
+        "Discord ..."
+            "ServerBot"
+```
+
 </details>
